@@ -1,4 +1,4 @@
-@import url ('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 
 *{
 	margin:0;
@@ -22,32 +22,40 @@ body {
 }
 
 #container .content {
-	max-width: 600px;
+	width: 70%;
 	text-align: center;
 }
 
-#container .content h2 {
-	font-size: 18vw;
+.eimage {
+	width: 50%;
+	padding-top: 1em;
+	height: auto;
+}
+
+#container .content .subtitle {
+	font-size: 30px;
 	color: #fff;
+	font-weight: 500;
 	line-height: 1em;
 }
 
 #container .content h4 {
 	position: relative;
 	font-size: 1.5em;
-	margin-bottom: 20px;
 	color: #fff;
-	font-weight: 300;
-	padding: 10px 20px;
+	font-weight: 400;
+	padding-top: 20px;
+	padding-bottom: 25PX;
 	display: inline-block;
 	border-radius: 4px;
 }
 
 #container .content p {
 	color: #fff;
-	font-size: 1.3em;	
+	font-size: 1.2em;	
 	text-align: center;
-	line-height: 1.7em;
+	line-height: 1.5em;
+	font-weight: 300;
 }
 
 #container .content a {
@@ -71,44 +79,25 @@ body {
 
 @media screen and (max-width: 700px) {
 
-	#container .content h2 {
-		font-size: 20vw;
-		padding-bottom: 20px;
+	#container .content {
+		width: 80%;
+	}
+
+	.eimage {
+		width: 100%;
 	}
 
 	#container .content h4 {
-		font-size: 2em;
-		margin-bottom: 20px;
+		font-size: 1em;
+		margin-bottom: 10px;
 	}
 
 	#container .content p {
-		font-size: 1.3em;
-		padding-bottom: 20px
+		font-size: 1em;
+		padding-bottom: 15px
 	}
 
 	#container .content a {
-		font-size: 2em;
-	}
-}
-
-@media screen and (max-width: 600px) {
-
-	#container .content h2 {
-		font-size: 20vw;
-		padding-bottom: 20px;
-	}
-
-	#container .content h4 {
-		font-size: 1.8em;
-		margin-bottom: 20px;
-	}
-
-	#container .content p {
-		font-size: 1.3em;
-		padding-bottom: 20px
-	}
-
-	#container .content a {
-		font-size: 1.8em;
+		font-size: 1em;
 	}
 }
